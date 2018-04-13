@@ -1,0 +1,136 @@
+<html><head>
+	<title id="title"> Vday Love </title>
+<style>
+body {background-color: pink;}
+</style></head>
+
+
+<body>
+
+<h1 id= "myHeading" >HAPPY VALENTINES DAY!</h1>
+<h1 align="center" > lots of love, Chloe </h1>
+
+
+
+
+<div id="scene1" style="display: block;">
+	<pre style="display: block; align-content: center;">
+    .--.  .--.
+   :  _ \/ _  :
+_\/ \ 6    6 /
+  \__\  '   /
+      \'--'/ \__/_
+      /\  /\    \
+     /  \/  \
+     \      /
+     _\    /_
+    (__\  /__)
+     
+
+</pre>
+</div>
+
+
+<div id="scene2" style="display: none;">
+<pre style="display: block;">
+       ___
+{~._.~}
+ ( Y )
+()~*~()
+(_)-(_)
+
+</pre>
+</div>
+
+
+<div id="scene3">
+<pre style="display: block;">
+     ()=()   ()-()   ()=()   ()-()
+     ('Y')   (':')   (^;^)   ('&') 
+     q . p   d . b   C   C   c . c
+     ()_()   ()_()   ()_()   ()=()
+
+::::          ::::::      ::::      ::::    :::::::::
+::::        ::::  ::::    ::::      ::::    :::::::::
+::::       ::::    ::::   ::::      ::::    ::::
+::::       ::::    ::::    ::::    ::::     ::::::::
+::::       ::::    ::::     ::::  ::::      ::::
+::::       ::::    ::::      ::::::::       ::::
+::::::::::  ::::  ::::        ::::::        :::::::::
+::::::::::    ::::::           ::::         :::::::::
+
+
+
+     ()=()   ()-()   ()=()   ()-()
+     ('Y')   (':')   (^;^)   ('&') 
+     q . p   d . b   C   C   c . c
+     ()_()   ()_()   ()_()   ()=()
+
+
+</pre>
+</div>
+
+<div id="scene1" style="display: block;">
+  <pre style="display: block; align-content: center;">
+    .--.  .--.
+   :  _ \/ _  :
+_\/ \ 6    6 /
+  \__\  '   /
+      \'--'/ \__/_
+      /\  /\    \
+     /  \/  \
+     \      /
+     _\    /_
+    (__\  /__)
+     
+
+</pre>
+</div>
+
+
+<div id="scene2" style="display: none;">
+<pre style="display: block;">
+       ___
+{~._.~}
+ ( Y )
+()~*~()
+(_)-(_)
+
+</pre>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+	$("#scene1").hide();
+	$("#scene2").hide();
+	i = 1;
+	function loop() {
+		switch(i) {
+			case 1:
+				$("#scene2").hide();
+				$("#scene1").show();
+				i = 2;
+				break;
+			case 2:
+				$("#scene1").hide();
+				$("#scene2").show();
+				i = 1;
+				break;
+		}
+	}
+	loop();
+	setInterval(loop, 1000);
+
+
+$(document).ready(function() {
+	$("pre").fadeOut(0).fadeIn(3000)
+})
+
+
+</script>
+
+
+
+</body></html>
